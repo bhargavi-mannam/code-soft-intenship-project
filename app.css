@@ -1,0 +1,17 @@
+/* Add your CSS styles here */
+
+.completed {
+    text-decoration: line-through;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.edit-button, .delete-button {
+    padding: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
